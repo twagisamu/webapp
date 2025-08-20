@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   webapp:
-    image: amusoke/webapp-release:v2
+    image: twagisamu/webapp-release:v2
     ports: ["80:1200"]
     environment:
       PORT: 1200
