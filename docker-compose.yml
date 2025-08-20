@@ -4,7 +4,7 @@ services:
     image: twagisamu/webapp-release:v3
     ports: ["80:1200"]
     environment:
-      PORT: 1200
-      testapp:
+       PORT: 1200
+    testapp:
        image: crccheck/hello-world
        ports: ["7070:8000"]
