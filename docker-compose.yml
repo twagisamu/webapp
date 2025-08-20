@@ -1,7 +1,10 @@
 version: "3.9"
 services:
   webapp:
-    image: amusoke/webapp:v7
-    ports: ["80:1200"]
+    image: twagisamu/webapp-release:v4
+    ports: ["8090:1200"]
     environment:
-      PORT: 1200
+       PORT: 1200
+  testapp:
+    image: crccheck/hello-world
+    ports: ["7070:8000"]
