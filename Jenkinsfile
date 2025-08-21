@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "twagisamu/webapp-jenkins:v1"
+    IMAGE = "twagisamu/webapp-jenkins:v2"
   }
 
   stages {
